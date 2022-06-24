@@ -1,0 +1,23 @@
+SPACESHIP_PROMPT_ORDER=(
+  user          # Username section
+  dir           # Current directory section
+  host          # Hostname section
+  git           # Git section (git_branch + git_status)
+  venv          # virtualenv section
+  hg            # Mercurial section (hg_branch  + hg_status)
+  exec_time     # Execution time
+  line_sep      # Line break
+  vi_mode       # Vi-mode indicator
+  jobs          # Background jobs indicator
+  exit_code     # Exit code section
+  char          # Prompt character
+)
+SPACESHIP_USER_SHOW=false
+SPACESHIP_PROMPT_ADD_NEWLINE=false
+SPACESHIP_USER_SUFFIX=" 🦇 "
+SPACESHIP_CHAR_SYMBOL=" ➜"
+SPACESHIP_CHAR_SUFFIX=" "
+SPACESHIP_VENV_SHOW=true
+SPACESHIP_VENV_PREFIX="(using 🐍: "
+SPACESHIP_VENV_SUFFIX=") "
+SPACESHIP_VENV_COLOR="#306998"

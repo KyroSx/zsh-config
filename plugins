@@ -1,0 +1,2 @@
+# Removed: zsh-syntax-highlighting
+plugins=(git asdf docker vscode)
