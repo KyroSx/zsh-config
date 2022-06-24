@@ -88,11 +88,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# source $HOME/.aliases
+# source $HOME/.lol_setup.sh
 
 
 ## SOURCES
-source $HOME/.zsh_resources/themes
-source $HOME/.zsh_resources/spaceship-theme-config
-source $HOME/.zsh_resources/zinit-installer
-source $HOME/.zsh_resources/plugins
+source "$HOME"/.zsh_resources/themes
+source "$HOME"/.zsh_resources/spaceship-theme-config
+source "$HOME"/.zsh_resources/zinit-installer
+source "$HOME"/.zsh_resources/plugins
+source "$HOME"/.zsh_resources/.lol_setup.sh
